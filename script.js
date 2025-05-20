@@ -2,7 +2,7 @@ let num1, num2, correct;
 
 function newQuestion() {
     num1 = Math.floor(Math.random() * 10000) + 1;
-    num2 = Math.floor(Math.random() * 20 ) + 1;
+    num2 = Math.floor(Math.random() * 10 ) + 1;
     correct = Math.round(num1/num2);
     document.getElementById("question").textContent = `${num1} / ${num2}`;
     document.getElementById("answer").value = "";
